@@ -1,0 +1,79 @@
+
+ body {
+     margin: 0;
+     padding: 0;
+     font-family: 'Arial', sans-serif;
+     background: linear-gradient(135deg, #2c003e, #b30000);
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: white;
+     position: relative;
+ }
+.container {
+    text-align: center;
+}
+.logo {
+    width: 150px;
+    margin-bottom: 20px;
+}
+.title {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+.btn-primary {
+    background-color: #b30000;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    margin: 10px 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 4px #2c003e;
+}
+.btn-primary:active {
+    box-shadow: 0 2px #2c003e;
+    transform: translateY(2px);
+}
+.btn-danger {
+    background-color: #dc3545;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    margin: 10px 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 4px #2c003e;
+}
+.btn-danger:active {
+    box-shadow: 0 2px #2c003e;
+    transform: translateY(2px);
+}
+.logout {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+
+}
+
+button{
+    background-image: linear-gradient(#BA1331, #240B35);
+    font-family: BankGothic;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
