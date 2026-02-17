@@ -44,3 +44,14 @@ if text == "saldo" or text == "/saldo":
     return
 
 
+
+
+if text == "reset":
+        saldo = 0
+        history.clear()
+        bot.send_message(
+            message.chat.id,
+            "♻️ Saldo dan riwayat berhasil direset."
+        )
+        return
+
